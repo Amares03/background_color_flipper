@@ -3,5 +3,6 @@ const btn = document.getElementById("btn");
 const color = document.querySelector(".color");
 
 btn.addEventListener("click", function () {
-  console.log(document.body);
+  document.body.style.backgroundColor = colors[0];
+  color.textContent = colors[0];
 });
